@@ -1,3 +1,1 @@
-Mod(s) utilizing Forge.
-
-Currently only have one.
+Mod(s) utilizing Minecraft Forge.
