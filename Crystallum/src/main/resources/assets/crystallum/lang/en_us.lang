@@ -1,0 +1,26 @@
+//Items
+item.crystallum_ingot.name=Crystallum Ingot
+item.crystallum_pearl.name=Crystallum Pearl
+item.iron_rod.name=Iron Rod
+
+//Tools
+item.crystallum_scythe.name=Crystallum Scythe
+item.crystallum_blade.name=Crystallum Blade
+item.crystallum_sword.name=Crystallum Sword
+item.crystallum_shovel.name=Crystallum Shovel
+item.crystallum_pickaxe.name=Crystallum Pickaxe
+item.crystallum_axe.name=Crystallum Axe
+item.crystallum_hoe.name=Crystallum Hoe
+
+//Armor
+item.crystallum_helmet.name=Crystallum Helmet
+item.crystallum_chest.name=Crystallum Chestplate
+item.crystallum_leggings.name=Crystallum Leggings
+item.crystallum_boots.name=Crystallum Boots
+
+//Blocks
+tile.crystallum_block.name=Crystallum Block
+tile.crystallum_ore.name=Crystallum Ore
+
+//Tabs
+itemGroup.crystallumtab=Crystallum

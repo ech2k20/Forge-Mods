@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern":
+    [
+        "#B#",
+        "#A ",
+        " A "
+    ],
+
+    "key":
+    {
+        "#":
+        {
+            "item": "crystallum:crystallum_ingot"
+        },
+        "A":
+        {
+            "item": "crystallum:iron_rod"
+        },
+        "B":
+        {
+            "item": "crystallum:crystallum_pearl"
+        }
+    },
+
+    "result":
+    {
+        "item": "crystallum:crystallum_scythe",
+        "count": 1
+    }
+}
