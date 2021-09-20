@@ -1,10 +1,9 @@
 package com.area.crystallum;
 
-import com.area.crystallum.core.Reference;
 import com.area.crystallum.core.creativetab.CrystallumTab;
 import com.area.crystallum.handlers.RegistryHandlers;
-
 import com.area.crystallum.proxy.IProxy;
+
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.*;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -16,7 +15,7 @@ public class crystallum
     /*@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
     public static CommonProxy proxy;*/
 
-    @SidedProxy(clientSide= Reference.CLIENT_PROXY_CLASS, serverSide=Reference.SERVER_PROXY_CLASS)
+    @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
     public static IProxy proxy;
 
     //CreativeTab
