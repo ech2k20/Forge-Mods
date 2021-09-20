@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern":
+    [
+        "###",
+        "# #"
+    ],
+
+    "key":
+    {
+        "#":
+        {
+            "item": "crystallum:crystallum_ingot"
+        }
+    },
+
+    "result":
+    {
+        "item": "crystallum:crystallum_helmet",
+        "count": 1
+    }
+}

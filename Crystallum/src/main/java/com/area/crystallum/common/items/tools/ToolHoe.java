@@ -1,0 +1,33 @@
+package com.area.crystallum.common.items.tools;
+
+import com.area.crystallum.crystallum;
+import com.area.crystallum.core.init.itemInit;
+
+import com.google.common.collect.HashMultimap;
+import com.google.common.collect.Multimap;
+
+import net.minecraft.entity.SharedMonsterAttributes;
+import net.minecraft.entity.ai.attributes.AttributeModifier;
+import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.item.ItemHoe;
+
+public class ToolHoe extends ItemHoe {
+    public ToolHoe(String name, ToolMaterial material){
+        super(material);
+        setRegistryName(name);
+        setUnlocalizedName(name);
+        setCreativeTab(crystallum.CRYSTALLUMTAB);
+
+        itemInit.ITEMS.add(this);
+    }
+
+    @Override
+    public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot equipmentSlot){
+        Multimap<String, AttributeModifier> multimap = HashMultimap.<String, AttributeModifier>create();
+        if (equipmentSlot == EntityEquipmentSlot.MAINHAND){
+            multimap.put(SharedMonsterAttributes.ATTACK_DAMAGE.getName(), new AttributeModifier(ATTACK_DAMAGE_MODIFIER, "Weapon modifier", 1.0f, 0));
+            multimap.put(SharedMonsterAttributes.ATTACK_SPEED.getName(), new AttributeModifier(ATTACK_SPEED_MODIFIER, "Weapon modifier", -3.0f, 0));
+        }
+        return multimap;
+    }
+}

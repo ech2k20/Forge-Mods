@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern":
+    [
+        " # ",
+        "#A#",
+        " # "
+    ],
+
+    "key":
+    {
+        "#":
+        {
+            "item": "crystallum:crystallum_ingot"
+        },
+        "A":
+        {
+            "item": "minecraft:ender_pearl"
+        }
+    },
+
+    "result":
+    {
+        "item": "crystallum:crystallum_pearl",
+        "count": 1
+    }
+}
