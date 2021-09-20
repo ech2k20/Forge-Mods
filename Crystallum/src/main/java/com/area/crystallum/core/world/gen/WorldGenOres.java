@@ -20,7 +20,7 @@ public class WorldGenOres implements IWorldGenerator {
     }
 
     private void generateOverworld(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
-        generateOre(blockInit.CRYSTALLUM_ORE.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 4, 90, 2 + random.nextInt(6), 60);
+        generateOre(blockInit.CRYSTALLUM_ORE.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 4, 16, 2 + random.nextInt(6), 1);
     }
 
     private void generateOre(IBlockState ore, World world, Random random, int x, int z, int minY, int maxY, int size, int chance) {
